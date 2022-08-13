@@ -1,0 +1,20 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w"
+  },
+  "repository": "git+https://github.com/zhoujiahua/typescript.git",
+  "author": "jiahua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhoujiahua/typescript/issues"
+  },
+  "homepage": "https://github.com/zhoujiahua/typescript#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
