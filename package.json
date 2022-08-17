@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "parcel": "parcel ./public/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tsc -w"
   },
@@ -15,6 +16,7 @@
   },
   "homepage": "https://github.com/zhoujiahua/typescript#readme",
   "devDependencies": {
+    "parcel": "^2.7.0",
     "ts-node": "^10.9.1"
   }
 }
