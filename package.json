@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/app.ts",
+    "dev": "nodemon --watch src/**/*.ts --exec ts-node src/app.ts",
     "parcel": "parcel ./public/index.html",
     "start": "node dist/index.js",
     "watch": "tsc -w",
