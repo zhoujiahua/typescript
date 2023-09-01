@@ -9,3 +9,14 @@ interface Shape {
 interface Circle extends Style, Shape {
     radius: number;
 }
+
+interface Person {
+    firstName: string;
+    lastName: string;
+    age: number;
+    sex: string;
+}
+
+interface Student extends Person {
+    cardNumber: number;
+}
