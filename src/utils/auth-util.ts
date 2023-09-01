@@ -1,3 +1,7 @@
 export function printId(id: number | string) {
-    console.log(id); // 报错
+    if (typeof id === 'string') {
+        console.log(id.toUpperCase());
+    } else {
+        console.log(id);
+    }
 }
