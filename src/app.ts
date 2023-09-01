@@ -1,13 +1,5 @@
 /// <reference path="./basic/a.ts">
 // console.log(ABC.VERSION);
-interface Style {
-    color: string;
-}
+import { printId } from './utils/auth-util'
 
-interface Shape {
-    name: string;
-}
-
-interface Circle extends Style, Shape {
-    radius: number;
-}
+printId('abc')
